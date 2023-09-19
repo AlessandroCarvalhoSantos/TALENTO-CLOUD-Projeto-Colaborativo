@@ -1,0 +1,48 @@
+/* Reset Padrão CSS */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+article, aside, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+button, input, select, textarea {
+    margin: 0;
+}
+
+button, input, select, textarea {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body{
+    background: linear-gradient(to right, #6412a7, #ebccff);
+}
