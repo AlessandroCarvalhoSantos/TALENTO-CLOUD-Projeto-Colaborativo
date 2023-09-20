@@ -1,0 +1,4 @@
+#noticias img {
+    width: 80px; /* Definindo a largura */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+}
