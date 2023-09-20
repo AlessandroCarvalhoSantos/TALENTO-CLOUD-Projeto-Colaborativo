@@ -1,0 +1,17 @@
+header, nav, aside, footer, div{
+    border: 1px solid #ccc;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+aside:nth-child(1){
+    width: 60%;
+    height: 400px;
+}
+aside:nth-child(2){
+    width: 38%;
+    float: right;
+    height: 400px;
+}
