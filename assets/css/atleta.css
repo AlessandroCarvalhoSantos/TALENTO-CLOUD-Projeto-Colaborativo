@@ -1,4 +1,119 @@
-#noticias img {
-    width: 80px; /* Definindo a largura */
-    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+section:first-of-type {
+    /* Estilos para a primeira section aqui */
+    display: flex;
 }
+
+
+#a {
+    width: 75%;
+    background-color: rgba(0, 0, 255, 0);
+    display:inline-block;
+    margin-left: 50px;
+    color: white;
+}
+#a > h2 {
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 25px 
+    
+}
+#a > section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+#a > section article{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px  groove black;
+    border-radius: 3%;
+    
+    background-color: rgba(197, 197, 197, 0.568);
+}
+#a  article h2{
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: underline rgb(0, 0, 0) 1.5px;
+    color: white;
+    
+}
+#historico{
+        padding: 5px 20px ;
+        
+}
+
+
+
+#historico p{
+    margin-top: 5px;
+    text-align: left;
+}
+#estatistica{
+    padding: 5px 20px  ;
+}
+#estatistica table{
+
+ line-height: 1.5;
+text-align: left;
+ color: black;
+}
+
+
+#noticias {
+    padding: 5px 20px  ;
+}
+
+#noticias img {
+    width: 200px; /*Definindo a largura*/
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+    display: block;
+    margin: 10px;
+    border-radius: 10%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#comentarios{
+    padding: 5px 25px;
+}
+#proximos_jogos {
+    width: 20%;
+    text-align: center;
+    word-wrap: break-word;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 7px;
+    /* background-color: rgba(41, 30, 104, 0.801); */
+    background-image: linear-gradient(rgb(45, 14, 82), rgba(45, 14, 82, 0.5));
+}
+#proximos_jogos header{
+    background-color: rgba(150, 6, 114, 0);
+    color: white;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#proximos_jogos div{
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px #000000;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /* background-color: antiquewhite; */
+}
+
+#proximos_jogos div h3 {
+        height: auto;
+    }
+    
