@@ -1,42 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/jogos.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <h2>Cabeçalho</h2>
-    </header>
-    <nav>
-        <h2>Navegação</h2>
-        <ul>
-            <li><a href="index.html">Index</a></li>
-        </ul>
-    </nav>
-    <section>
-        <aside>
-            <h2>Lances em tempo real</h2>
-            <div>
-                <p>Publicidade</p>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./assets/img/icon-tab-site.png" type="image/png">
+
+        <!--Importando o css principal da página-->
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <!--Importando os icones da página-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-LC6sr0ChMgFKzV4ERQi5V2NKKsFPPfYbXju0d4MyI3LNxOZu9DyPl5ftTRbIZbNf" crossorigin="anonymous">
+        
+        <!--Importando fontes da página-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        
+        <title>FUTBR</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="Logo">
             </div>
-            <div>
-                <p>Pré-jogo</p>
+            <button class="menu-btn">&#9776; Menu</button>
+            <div class="links">
+                <div class="link-item"><a href="./index.html"><i class="fas fa-home"></i> Home</a></div>
+                <div class="link-item"><a href="#"><i class="fas fa-newspaper"></i> Notícias</a></div>
+                <div class="link-item selected-item"><a href="./jogos.html"><i class="fa-solid fa-trophy"></i> Jogos</a></div>
+                <div class="link-item"><a href="#"><i class="fa-solid fa-shield-halved"></i></i> Times</a></div>
+                <div class="link-item"><a href="#"><i class="fas fa-user"></i> Usuário</a></div>
             </div>
-        </aside>
-        <aside>
-            <h2>Informações</h2>
-            <ul>
-                <li>Escalação</li>
-                <li>Estatística</li>
-                <li>Classificação</li>
-            </ul>
-        </aside>
-    </section>
-    <footer>
-        <h2>Rodapé</h2>
-    </footer>
-</body>
+        </nav>
+
+        <main class="jogos-home-page">
+            
+            <div class="jogos-container">
+                <div class="jogos-main-section">
+                    <h1>Tabela de jogos</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, molestias, quas consectetur eligendi cum corporis modi voluptatem sapiente deleniti, vero ullam eum similique sunt facere ab optio illum veritatis quidem.
+                    </p>
+                </div>
+                <div class="jogos-news-section">
+                    <h2>PARTIDA</h2>
+                    <ul class="jogos-news-list">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./assets/img/escudo-da-equipe.png" alt="Escudo da equipe">
+                            </div>
+                            <div class="card-content">
+                                <h3>TIME A</A></h3>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque nihil eius nobis quis recusandae exercitationem alias laudantium illum odit eaque adipisci sunt molestiae ipsum eos veniam, veritatis asperiores rerum dolorum!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./assets/img/escudo-da-equipe.png" alt="Escudo da equipe">
+                            </div>
+                            <div class="card-content">
+                                <h3>TIME B</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eaque sunt obcaecati vel atque sint ipsa accusamus quasi ab laborum qui, ratione suscipit odio architecto fugit magni nesciunt et neque.</p>
+                            </div>
+                        </div>
+                    </ul>
+                    
+                </div>
+            </div>
+        </main>
+        
+        <script src="./assets/js/main.js"></script>
+        <!--Importando os icones da página-->
+        <script src="https://kit.fontawesome.com/017bd8e266.js" crossorigin="anonymous"></script>
+    </body>
 </html>

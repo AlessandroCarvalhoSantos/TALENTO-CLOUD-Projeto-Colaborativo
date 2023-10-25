@@ -1,17 +1,77 @@
-header, nav, aside, footer, div{
-    border: 1px solid #ccc;
-    text-align: center;
-    float: left;
-    width: 100%;
-    margin: 15px 0px;
+/*  Página de jogos -  -------------------------------------------------*/
+.jogos-home-page {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 40px);
+    margin: 0;
+    /* background-image: url("../img/HomePageMain.png"); */
+    background-repeat: no-repeat;
+    background-position-x: 12%;
+    background-position-y: center;
+    background-size: 35%;
+    
 }
 
-aside:nth-child(1){
-    width: 60%;
-    height: 400px;
+.jogos-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: #1c0a29d8; 
+    padding: 20px 30px 20px 120px;
+    max-width: 100%;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    flex-direction: column;
 }
-aside:nth-child(2){
-    width: 38%;
-    float: right;
-    height: 400px;
+
+
+.jogos-main-section {
+    flex: 2;
+    color: #fff;
+    padding-right: 20px;
+    /* background-color: red; */
 }
+
+.jogos-main-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.jogos-main-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* CARDS */
+
+.jogos-news-section {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f4e9fa; 
+}
+
+.jogos-news-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.jogos-news-item {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.jogos-news-section  h2 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+}
+

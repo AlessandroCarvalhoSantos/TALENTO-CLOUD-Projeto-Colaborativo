@@ -2,6 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="./assets/img/icon-tab-site.png" type="image/png">
 
@@ -16,17 +17,25 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-        <meta charset="UTF-8">
-
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-        <meta name="viewport"content="width=device-width, initial-scale=1.0">
-
         <title>Login</title>
 
     </head>
 
     <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="Logo">
+            </div>
+            <button class="menu-btn">&#9776; Menu</button>
+            <div class="links">
+                <div class="link-item selected-item"><a href="./index.html"><i class="fas fa-home"></i> Home</a></div>
+                <div class="link-item"><a href="#"><i class="fas fa-newspaper"></i> Notícias</a></div>
+                <div class="link-item"><a href="./jogos.html"><i class="fa-solid fa-trophy"></i> Jogos</a></div>
+                <div class="link-item"><a href="#"><i class="fa-solid fa-shield-halved"></i></i> Times</a></div>
+                <div class="link-item"><a href="./user.html"><i class="fas fa-user"></i> Usuário</a></div>
+            </div>
+        </nav>
+
 
         <div id="login">
 
@@ -38,6 +47,8 @@
 
                 </div>
 
+		<br>
+
                 <div class="card-content">
 
                     <div class="card-content-area">
@@ -47,6 +58,8 @@
                         <input type="text" id="usuario" autocomplete="off">
 
                     </div>
+
+			<br>
 
                     <div class="card-content-area">
 
@@ -59,6 +72,7 @@
                 </div>
 
                 <div class="card-footer">
+			<br>
 
                     <input type="submit" value="login" class="submit">
 
