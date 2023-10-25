@@ -36,6 +36,7 @@ section:first-of-type {
     border-radius: 3%;
     
     background-color: rgba(197, 197, 197, 0.568);
+    transition: transform 0.5s ease;
 }
 #a  article h2{
     text-align: center;
@@ -51,8 +52,6 @@ section:first-of-type {
         
 }
 
-
-
 #historico p{
     margin-top: 5px;
     text-align: left;
@@ -66,7 +65,6 @@ section:first-of-type {
 text-align: left;
  color: black;
 }
-
 
 #noticias {
     padding: 5px 20px  ;
@@ -83,6 +81,7 @@ text-align: left;
 
 #comentarios{
     padding: 5px 25px;
+    color: #000000;
 }
 #proximos_jogos {
     width: 20%;
