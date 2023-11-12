@@ -4,27 +4,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 40px);
+    /* height: calc(100vh - 40px); */
     margin: 0;
     /* background-image: url("../img/HomePageMain.png"); */
     background-repeat: no-repeat;
     background-position-x: 12%;
     background-position-y: center;
     background-size: 35%;
-    
+   
 }
+
 
 .jogos-container {
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
-    background-color: #1c0a29d8; 
+    background-color: #1c0a29d8;
     padding: 20px 30px 20px 120px;
     max-width: 100%;
     width: 80%;
     height: 80%;
     border-radius: 10px;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 
@@ -35,11 +37,13 @@
     /* background-color: red; */
 }
 
+
 .jogos-main-section h1 {
     font-size: 36px;
     margin-bottom: 20px;
     text-align: center;
 }
+
 
 .jogos-main-section p {
     font-size: 18px;
@@ -47,26 +51,22 @@
     margin-bottom: 30px;
 }
 
+
 /* CARDS */
+
 
 .jogos-news-section {
     flex: 1;
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
-    background-color: #f4e9fa; 
+    background-color: #f4e9fa;
 }
 
-.jogos-news-list {
-    list-style-type: none;
-    padding: 0;
+.jogos-news-section p{
+    margin-top: 60px;
 }
 
-.jogos-news-item {
-    font-size: 18px;
-    color: #555;
-    margin-bottom: 10px;
-}
 
 .jogos-news-section  h2 {
     font-size: 24px;
@@ -74,4 +74,34 @@
     margin-bottom: 20px;
     text-align: center;
 }
+.jogos-news-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.jogos-card-content{
+    flex: 2;
+    padding: 10px;
+    background-color: #e7daff;
+    border-radius: 5px;
+}
+
+.jogos-card-image{
+    /* flex: 1; */
+    max-width: 150px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jogos-card-content h3{
+    text-align: center;
+}
+
+.jogos-versus-card-image{
+    max-width: 150px;
+    overflow: hidden;
+    margin: 0 50px;
+    width: 45px;
+}
