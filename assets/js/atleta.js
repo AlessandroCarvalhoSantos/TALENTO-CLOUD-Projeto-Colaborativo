@@ -1,5 +1,4 @@
 let articles = document.querySelectorAll("article")
-console.log(articles)
 
 articles.forEach(function(article) {
     

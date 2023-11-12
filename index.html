@@ -14,92 +14,33 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <script src="./assets/js/components.js" defer></script>
+        <script src="./assets/js/validation.js" defer></script>
+        <script src="./assets/js/main.js" defer></script>
+        <script src="./controller/controller.js" defer></script>
+        <script src="./controller/homePage.js" defer></script>
         
         <title>FUTBR</title>
     </head>
     <body>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="./assets/img/logo.png" alt="Logo">
-            </div>
-            <button class="menu-btn">&#9776; Menu</button>
-            <div class="links">
-                <div class="link-item selected-item"><a href="./index.html"><i class="fas fa-home"></i> Home</a></div>
-                <div class="link-item"><a href="#"><i class="fas fa-newspaper"></i> Notícias</a></div>
-                <div class="link-item"><a href="./jogos.html"><i class="fa-solid fa-trophy"></i> Jogos</a></div>
-                <div class="link-item"><a href="#"><i class="fa-solid fa-shield-halved"></i></i> Times</a></div>
-                <div class="link-item"><a href="#"><i class="fas fa-user"></i> Usuário</a></div>
-            </div>
-        </nav>
     
-        <main class="main-home-page">
+        <main class="main-home-page main-default">
             <div class="container">
                 <div class="main-section">
                     <h1>O melhor futebol do Brasil</h1>
                     <p>
-                        Desfrute do espetáculo do futebol brasileiro, conhecido mundialmente como O melhor futebol do Brasil. 
+                        Desfrute do espetáculo do futebol brasileiro, conhecido mundialmente como O melhor futebol do Mundo. 
                         Com sua tradição rica e jogadores talentosos, o país eleva o esporte a um nível de excelência incomparável.
                         Descubra a magia do futebol brasileiro conosco!
                     </p>
                 </div>
-                <div class="news-section">
-                    <h2>Notícias</h2>
-                    <ul class="news-list">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="./assets/img/news-europa.png" alt="Notícia 1">
-                            </div>
-                            <div class="card-content">
-                                <h3>Champions League</h3>
-                                <p>
-                                    Milan e Newcastle estreiam na fase de grupos da Champions
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="./assets/img/palmeiras-bahia.webp" alt="Notícia 1">
-                            </div>
-                            <div class="card-content">
-                                <h3>Brasileirão</h3>
-                                <p> Bahia bate palmeiras, resultado tira o palmeira da vice-liderança. </p>
-                            </div>
-                        </div>
-                    </ul>
-                </div>
+                <div class="news-section" id="news-section"></div>
             </div>
         </main>
-        <section class="destaques">
-            <h2>Destaques</h2>
-    
-            <div class="cards-container-destaques">
-                <div class="card">
-                    <img src="./assets/img/news-europa.png" alt="Imagem 1">
-                    <h3>Destaque 1</h3>
-                </div>
-    
-                <div class="card">
-                    <img src="./assets/img/news-europa.png" alt="Imagem 1">
-                    <h3>Destaque 2</h3>
-                </div>
-    
-                <div class="card">
-                    <img src="./assets/img/news-europa.png" alt="Imagem 1">
-                    <h3>Destaque 3</h3>
-                </div>
-                <div class="card">
-                    <img src="./assets/img/news-europa.png" alt="Imagem 1">
-                    <h3>Destaque 3</h3>
-                </div>
-                <div class="card">
-                    <img src="./assets/img/news-europa.png" alt="Imagem 1">
-                    <h3>Destaque 3</h3>
-                </div>
-            </div>
-        </section>
 
-        
-        <script src="./assets/js/main.js"></script>
+        <section class="destaques" id="destaques"></section>
+
         <!--Importando os icones da página-->
         <script src="https://kit.fontawesome.com/017bd8e266.js" crossorigin="anonymous"></script>
     </body>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../assets/img/icon-tab-site.png" type="image/png">
+
+        <!--Importando o css principal da página-->
+        <link rel="stylesheet" href="../assets/css/main.css">
+        <!--Importando os icones da página-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-LC6sr0ChMgFKzV4ERQi5V2NKKsFPPfYbXju0d4MyI3LNxOZu9DyPl5ftTRbIZbNf" crossorigin="anonymous">
+        
+        <!--Importando fontes da página-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <script src="../assets/js/components.js" defer></script>
+        <script src="../assets/js/validation.js" defer></script>
+        <script src="../assets/js/main.js" defer></script>
+        <script src="../controller/usuario.js" defer></script>
+        <title>FUTBR</title>
+    </head>
+    <body>
+    
+        <div class="usuario-container">
+            <div class="usuario" id="usuarioContainer">
+                <div class="usuario-tabs">
+                    <button class="usuario-tab" onclick="showTab('login')">Login</button>
+                    <button class="usuario-tab" onclick="showTab('cadastro')">Cadastro</button>
+                </div>
+    
+                <div class="usuario-tab-content" id="loginTab">
+                    <form>
+                        <div class="usuario-form-group">
+                            <label class="usuario-label" for="username">Usuário:</label>
+                            <input class="usuario-input" oninput="verificarUsuario(this)" type="text" id="username" name="username" required>
+                            <p class="invalid-text"></p>
+                        </div>
+    
+                        <div class="usuario-form-group">
+                            <label class="usuario-label" for="password">Senha:</label>
+                            <input class="usuario-input" oninput="verificarSenha(this)" type="password" id="password" name="password" required>
+                            <p class="invalid-text"></p>
+                        </div>
+    
+                        <button class="usuario-button" type="button" onclick="validarFormularioLogin()">Entrar</button>
+                    </form>
+                </div>
+    
+                <div class="usuario-tab-content" id="cadastroTab">
+                    <form>
+                        <div class="usuario-form-group">
+                            <label class="usuario-label" for="newUsername">Usuário:</label>
+                            <input class="usuario-input" oninput="verificarUsuario(this)" type="text" id="newUsername" name="newUsername" required>
+                            <p class="invalid-text"></p>
+                        </div>
+    
+                        <div class="usuario-form-group">
+                            <label class="usuario-label" for="newPassword">Senha:</label>
+                            <input class="usuario-input" oninput="verificarSenha(this)" type="password" id="newPassword" name="newPassword" required>
+                            <p class="invalid-text"></p>
+                        </div>
+    
+                        <div class="usuario-form-group">
+                            <label class="usuario-label" for="fullName">Nome Completo:</label>
+                            <input class="usuario-input" oninput="verificarNome(this)"  type="text" id="fullName" name="fullName" required>
+                            <p class="invalid-text"></p>
+                        </div>
+    
+                        <div class="usuario-form-group">
+                            <label class="usuario-label" for="email">E-mail:</label>
+                            <input class="usuario-input" oninput="verificarEmailCadastro(this)" type="email" id="email" name="email" required>
+                            <p class="invalid-text"></p>
+                        </div>
+    
+                        <button class="usuario-button" onclick="validarFormularioCadastro()" type="button">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+       
+        <!--Importando os icones da página-->
+        <script src="https://kit.fontawesome.com/017bd8e266.js" crossorigin="anonymous"></script>
+    </body>
+</html>

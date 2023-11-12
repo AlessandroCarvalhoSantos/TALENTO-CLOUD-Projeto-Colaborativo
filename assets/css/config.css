@@ -19,6 +19,9 @@ body, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
 }
+body{
+    background: linear-gradient(to right, #1d0135, #15011f);
+}
 
 button, input, select, textarea {
     font-family: inherit;
@@ -43,6 +46,6 @@ img, video {
 }
 
 
-body{
-    background: linear-gradient(to right, #6412a7, #ebccff);
-}
+
+
+

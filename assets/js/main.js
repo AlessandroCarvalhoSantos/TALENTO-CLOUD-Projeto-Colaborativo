@@ -1,6 +1,6 @@
+var primeiroElementoFilho = document.body.firstChild;
+document.body.insertBefore(criarNavBar(), primeiroElementoFilho);
 
+document.body.appendChild(criarFooter());
 
-//NavBar config
-document.querySelector('.menu-btn').addEventListener('click', function() {
-    document.querySelector('.links').classList.toggle('active');
-});
+generateBackgroundAnimation()
