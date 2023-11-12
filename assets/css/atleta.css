@@ -61,9 +61,9 @@ section:first-of-type {
 }
 #estatistica table{
 
- line-height: 1.5;
-text-align: left;
- color: black;
+    line-height: 1.5;
+    text-align: left;
+    color: black;
 }
 
 #noticias {

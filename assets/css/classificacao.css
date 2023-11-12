@@ -1,8 +1,14 @@
-.tg  {border-collapse:collapse;
+#tabela{
+  border-radius: 17%;
+}
+
+.tg  {
+  border-collapse:collapse;
   border-spacing:0;
-  margin-top: 200px;
-  margin-left: 100px;
-  margin-bottom: 100px;}
+  margin-top: 0px;
+  margin-left: 0px;
+
+}
 
 .tg td{border-color:black;
   border-style:solid;
@@ -29,7 +35,8 @@
   color:#000000;
   font-weight:bold;
   text-align:center;
-  vertical-align:middle}
+  vertical-align:middle
+}
 
 .tg .tg-vpdf{
   background-color:#cbcefb;
@@ -46,23 +53,3 @@
   font-weight:bold;
   text-align:center;
   vertical-align:middle}
-
-.lista-jogos{
-  margin-right: 100px;
-}
-
-#Tabela{
-  float:left;
-}
-
-#Proximos_Jogos{
-
-  margin-top: 200px;
-  margin-left: 100px;
-  margin-bottom: 100px;
-
-  width:300px;
-  height:700px;
-  float:left;
-  background-color:#ffffff;
-}
