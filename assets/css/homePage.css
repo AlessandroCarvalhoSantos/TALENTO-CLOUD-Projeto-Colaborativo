@@ -135,3 +135,25 @@
     }
     
 }
+
+
+@media (max-width: 1366px) {
+    .main-section {
+        width: 40%;    
+        color: #fff;
+        padding-right: 20px;
+        /* background-color: red; */
+    }
+    
+    
+    
+    .news-section {
+        width: 60%;  
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        background-color: #f4e9fa; 
+    }
+    
+}
+
