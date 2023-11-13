@@ -1,4 +1,4 @@
-const accessRequest = '3ebbec49446fc0435ba3878ff041cc2792a1028cee33bba2af236880d9250565';
+const accessRequest = 'bf9cd08b826b7181ed2d161b834e13b9cb953a9a45180243ae571dfd87dbfa62';
 const corsAnywhereUrl = 'https://cors-anywhere.herokuapp.com/';
 const xmlUrl = 'https://www.ogol.com.br/rss/noticias.php';
 
